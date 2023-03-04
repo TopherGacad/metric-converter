@@ -1,0 +1,91 @@
+:root{
+    --base-color: #1F2937;
+    --btn-font: #3D3D3D;
+    --header-purple: #6943FF;
+    --border-purple:#B295FF;
+    --card-color: #f4f4f4e8;
+    --basic-white: #FFFFFF;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: var(--base-color);
+}
+.contain-all{
+    background-color: var(--card-color);
+    height: 600px;
+    width: 550px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 2px 4px 15px black;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    background-color: var(--header-purple);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 1px 1px 12px var(--base-color);
+    height: 220px;
+}
+.input-title{
+    font-size: 21px;
+    text-shadow: 0px 0px 3px var(--base-color);
+    color: var(--basic-white);
+    padding: 25px 50px 0px 50px;
+    letter-spacing: 1.5px;
+}
+#input-el{
+    width: 120px;
+    height: 60px;
+    margin-bottom: 20px;
+    border: 2px solid var(--border-purple);
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--basic-white);
+}
+#convert-btn{
+    color: var(--btn-font);
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+#convert-btn:hover{
+    background-color: var(--base-color);
+    color: var(--basic-white);
+}
+.result-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:30px ;
+}
+.contain-el{
+
+    width: 500px;
+    height: 100px;
+    margin-bottom:10px ;
+    border-radius: 5px;
+    background-color: var(--basic-white);
+}
+.result-title{
+    font-size: 15px;
+    color: var(--btn-font);
+}
+#result-1, #result-2, #result-3{
+    color: var(--header-purple);
+    font-size: 15px;
+}

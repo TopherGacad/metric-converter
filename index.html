@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="contain-all">
+        <div class="input-container">
+            <h2 class="input-title">Metric/Imperial Unit Conversion</h2>
+            <input type="number" min="1" max="999" oninput="(validity.valid)||(value='');" id="input-el">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div class="result-container">
+            <div class="contain-el">
+                <h3 class="result-title">Length(Meter/Feet)</h3>
+                <p id="result-1">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+            </div>
+    
+            <div class="contain-el">
+                <h3 class="result-title">Volume(liters/Galon)</h3>
+                <p id="result-2">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+            </div>
+    
+            <div class="contain-el">
+                <h3 class="result-title">Mass(Kilogram/Pound)</h3>
+                <p id="result-3">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+            </div>
+        </div>
+    </div>
+    
+  
+    <script src="index.js"></script>
+</body>
+</html>
