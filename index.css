@@ -22,7 +22,7 @@ body{
     width: 550px;
     margin: 50px auto;
     border-radius: 20px;
-    box-shadow: 2px 4px 15px black;
+    box-shadow: 4px 4px 10px rgba(14, 13, 13, 0.651);
 }
 .input-container{
     display: flex;
@@ -85,7 +85,11 @@ body{
     font-size: 15px;
     color: var(--btn-font);
 }
-#result-1, #result-2, #result-3{
+#result{
     color: var(--header-purple);
     font-size: 15px;
+}
+span{
+    font-size: 10px;
+    color: var(--btn-font);
 }
