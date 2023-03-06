@@ -16,7 +16,30 @@ body{
     text-align: center;
     background-color: var(--base-color);
 }
-.contain-all{
+
+/* TYPOGRAPHY */
+h2{
+    font-size: 21px;
+    text-shadow: 0px 0px 3px var(--base-color);
+    color: var(--basic-white);
+    padding: 25px 50px 0px 50px;
+    letter-spacing: 1.5px;
+}
+h3{
+    font-size: 15px;
+    color: var(--btn-font);
+}
+p{
+    color: var(--header-purple);
+    font-size: 15px;
+}
+span{
+    font-size: 10px;
+    color: var(--btn-font);
+}
+
+/* LAYOUT */
+.container{
     background-color: var(--card-color);
     height: 600px;
     width: 550px;
@@ -34,13 +57,7 @@ body{
     box-shadow: 1px 1px 12px var(--base-color);
     height: 220px;
 }
-.input-title{
-    font-size: 21px;
-    text-shadow: 0px 0px 3px var(--base-color);
-    color: var(--basic-white);
-    padding: 25px 50px 0px 50px;
-    letter-spacing: 1.5px;
-}
+
 #input-el{
     width: 120px;
     height: 60px;
@@ -73,23 +90,10 @@ body{
     justify-content: space-between;
     padding-top:30px ;
 }
-.contain-el{
-
+.card{
     width: 500px;
     height: 100px;
     margin-bottom:10px ;
     border-radius: 5px;
     background-color: var(--basic-white);
-}
-.result-title{
-    font-size: 15px;
-    color: var(--btn-font);
-}
-#result{
-    color: var(--header-purple);
-    font-size: 15px;
-}
-span{
-    font-size: 10px;
-    color: var(--btn-font);
 }
